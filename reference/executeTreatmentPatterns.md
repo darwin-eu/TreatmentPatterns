@@ -171,31 +171,31 @@ if (require("CirceR", character.only = TRUE, quietly = TRUE)) {
 }
 #> 
 #> Download completed!
-#> Creating CDM database /tmp/RtmpjZjpkW/file2ae17e2782cc/GiBleed_5.3.zip
+#> Creating CDM database /tmp/RtmpwyqFj7/file296b29b68f14/GiBleed_5.3.zip
 #> ℹ Generating 8 cohorts
 #> ℹ Generating cohort (1/8) - acetaminophen
-#> ✔ Generating cohort (1/8) - acetaminophen [183ms]
+#> ✔ Generating cohort (1/8) - acetaminophen [200ms]
 #> 
 #> ℹ Generating cohort (2/8) - amoxicillin
-#> ✔ Generating cohort (2/8) - amoxicillin [170ms]
+#> ✔ Generating cohort (2/8) - amoxicillin [167ms]
 #> 
 #> ℹ Generating cohort (3/8) - aspirin
-#> ✔ Generating cohort (3/8) - aspirin [162ms]
+#> ✔ Generating cohort (3/8) - aspirin [164ms]
 #> 
 #> ℹ Generating cohort (4/8) - clavulanate
-#> ✔ Generating cohort (4/8) - clavulanate [158ms]
+#> ✔ Generating cohort (4/8) - clavulanate [163ms]
 #> 
 #> ℹ Generating cohort (5/8) - death
-#> ✔ Generating cohort (5/8) - death [122ms]
+#> ✔ Generating cohort (5/8) - death [126ms]
 #> 
 #> ℹ Generating cohort (6/8) - doxylamine
-#> ✔ Generating cohort (6/8) - doxylamine [156ms]
+#> ✔ Generating cohort (6/8) - doxylamine [160ms]
 #> 
 #> ℹ Generating cohort (7/8) - penicillinv
-#> ✔ Generating cohort (7/8) - penicillinv [156ms]
+#> ✔ Generating cohort (7/8) - penicillinv [160ms]
 #> 
 #> ℹ Generating cohort (8/8) - viralsinusitis
-#> ✔ Generating cohort (8/8) - viralsinusitis [235ms]
+#> ✔ Generating cohort (8/8) - viralsinusitis [243ms]
 #> 
 #> -- Qualifying records for cohort definitions: 1, 2, 3, 4, 5, 6, 7, 8
 #>  Records: 14041
@@ -231,6 +231,6 @@ if (require("CirceR", character.only = TRUE, quietly = TRUE)) {
 #> -- treatment construction done
 #>  Records: 553
 #>  Subjects: 512
-#> Censoring 1540 pathways with a frequency <5 to mean.
+#> Censoring 1535 pathways with a frequency <5 to mean.
 # }
 ```

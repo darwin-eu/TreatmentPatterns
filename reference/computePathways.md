@@ -249,31 +249,31 @@ if (ableToRun) {
 }
 #> 
 #> Download completed!
-#> Creating CDM database /tmp/RtmpjZjpkW/file2ae165e1824f/GiBleed_5.3.zip
+#> Creating CDM database /tmp/RtmpwyqFj7/file296b28a7b871/GiBleed_5.3.zip
 #> ℹ Generating 8 cohorts
 #> ℹ Generating cohort (1/8) - acetaminophen
-#> ✔ Generating cohort (1/8) - acetaminophen [303ms]
+#> ✔ Generating cohort (1/8) - acetaminophen [385ms]
 #> 
 #> ℹ Generating cohort (2/8) - amoxicillin
-#> ✔ Generating cohort (2/8) - amoxicillin [214ms]
+#> ✔ Generating cohort (2/8) - amoxicillin [225ms]
 #> 
 #> ℹ Generating cohort (3/8) - aspirin
-#> ✔ Generating cohort (3/8) - aspirin [185ms]
+#> ✔ Generating cohort (3/8) - aspirin [191ms]
 #> 
 #> ℹ Generating cohort (4/8) - clavulanate
-#> ✔ Generating cohort (4/8) - clavulanate [162ms]
+#> ✔ Generating cohort (4/8) - clavulanate [170ms]
 #> 
 #> ℹ Generating cohort (5/8) - death
-#> ✔ Generating cohort (5/8) - death [133ms]
+#> ✔ Generating cohort (5/8) - death [140ms]
 #> 
 #> ℹ Generating cohort (6/8) - doxylamine
-#> ✔ Generating cohort (6/8) - doxylamine [151ms]
+#> ✔ Generating cohort (6/8) - doxylamine [162ms]
 #> 
 #> ℹ Generating cohort (7/8) - penicillinv
-#> ✔ Generating cohort (7/8) - penicillinv [153ms]
+#> ✔ Generating cohort (7/8) - penicillinv [180ms]
 #> 
 #> ℹ Generating cohort (8/8) - viralsinusitis
-#> ✔ Generating cohort (8/8) - viralsinusitis [249ms]
+#> ✔ Generating cohort (8/8) - viralsinusitis [268ms]
 #> 
 #> -- Qualifying records for cohort definitions: 1, 2, 3, 4, 5, 6, 7, 8
 #>  Records: 14041

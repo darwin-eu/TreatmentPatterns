@@ -42,7 +42,7 @@ con <- DBI::dbConnect(
     ## 
     ## Download completed!
 
-    ## Creating CDM database /tmp/RtmpailPfZ/file4071520ddd6a/GiBleed_5.3.zip
+    ## Creating CDM database /tmp/RtmpBELeiF/file3f501f1e49cb/GiBleed_5.3.zip
 
 ``` r
 cdm <- CDMConnector::cdmFromCon(
@@ -63,49 +63,49 @@ cdm <- CDMConnector::generateCohortSet(
 
     ## ℹ Generating cohort (1/8) - acetaminophen
 
-    ## ✔ Generating cohort (1/8) - acetaminophen [363ms]
+    ## ✔ Generating cohort (1/8) - acetaminophen [397ms]
 
     ## 
 
     ## ℹ Generating cohort (2/8) - amoxicillin
 
-    ## ✔ Generating cohort (2/8) - amoxicillin [214ms]
+    ## ✔ Generating cohort (2/8) - amoxicillin [188ms]
 
     ## 
 
     ## ℹ Generating cohort (3/8) - aspirin
 
-    ## ✔ Generating cohort (3/8) - aspirin [172ms]
+    ## ✔ Generating cohort (3/8) - aspirin [185ms]
 
     ## 
 
     ## ℹ Generating cohort (4/8) - clavulanate
 
-    ## ✔ Generating cohort (4/8) - clavulanate [160ms]
+    ## ✔ Generating cohort (4/8) - clavulanate [168ms]
 
     ## 
 
     ## ℹ Generating cohort (5/8) - death
 
-    ## ✔ Generating cohort (5/8) - death [144ms]
+    ## ✔ Generating cohort (5/8) - death [135ms]
 
     ## 
 
     ## ℹ Generating cohort (6/8) - doxylamine
 
-    ## ✔ Generating cohort (6/8) - doxylamine [155ms]
+    ## ✔ Generating cohort (6/8) - doxylamine [161ms]
 
     ## 
 
     ## ℹ Generating cohort (7/8) - penicillinv
 
-    ## ✔ Generating cohort (7/8) - penicillinv [149ms]
+    ## ✔ Generating cohort (7/8) - penicillinv [156ms]
 
     ## 
 
     ## ℹ Generating cohort (8/8) - viralsinusitis
 
-    ## ✔ Generating cohort (8/8) - viralsinusitis [240ms]
+    ## ✔ Generating cohort (8/8) - viralsinusitis [258ms]
 
     ## 
 
@@ -194,7 +194,7 @@ results <- TreatmentPatterns::export(
 )
 ```
 
-    ## Wrote csv-files to: /tmp/RtmpailPfZ
+    ## Wrote csv-files to: /tmp/RtmpBELeiF
 
 ## Saving results
 
@@ -215,13 +215,13 @@ fact you can still do this. Or upload it to a database:
 results$saveAsCsv(path = tempdir())
 ```
 
-    ## Wrote csv-files to: /tmp/RtmpailPfZ
+    ## Wrote csv-files to: /tmp/RtmpBELeiF
 
 ``` r
 results$saveAsZip(path = tempdir(), name = "tp-results.zip")
 ```
 
-    ## Wrote zip-file to: /tmp/RtmpailPfZ
+    ## Wrote zip-file to: /tmp/RtmpBELeiF
 
 ``` r
 # Upload to database
@@ -253,29 +253,29 @@ results$uploadResultsToDb(
 
     ## - Preparing to upload rows 1 through 12
 
-    ## Inserting data took 0.0206 secs
+    ## Inserting data took 0.0221 secs
     ## Uploading file: counts_age.csv to table: counts_age
 
     ## - Preparing to upload rows 1 through 63
 
-    ## Inserting data took 0.0298 secs
+    ## Inserting data took 0.0328 secs
     ## Uploading file: counts_sex.csv to table: counts_sex
 
     ## - Preparing to upload rows 1 through 2
 
-    ## Inserting data took 0.00801 secs
+    ## Inserting data took 0.00828 secs
     ## Uploading file: counts_year.csv to table: counts_year
 
     ## Warning: The following named parsers don't match the column names: year
 
     ## - Preparing to upload rows 1 through 52
 
-    ## Inserting data took 0.00816 secs
+    ## Inserting data took 0.00849 secs
     ## Uploading file: metadata.csv to table: metadata
 
     ## - Preparing to upload rows 1 through 1
 
-    ## Inserting data took 0.00823 secs
+    ## Inserting data took 0.00868 secs
     ## Uploading file: summary_event_duration.csv to table: summary_event_duration
 
     ## Warning: The following named parsers don't match the column names: min, q1,
@@ -283,31 +283,31 @@ results$uploadResultsToDb(
 
     ## - Preparing to upload rows 1 through 88
 
-    ## Inserting data took 0.00985 secs
+    ## Inserting data took 0.0101 secs
     ## Uploading file: treatment_pathways.csv to table: treatment_pathways
 
     ## Warning: The following named parsers don't match the column names: path
 
     ## - Preparing to upload rows 1 through 372
 
-    ## Inserting data took 0.0088 secs
+    ## Inserting data took 0.00932 secs
     ## Uploading file: cdm_source_info.csv to table: cdm_source_info
 
     ## - Preparing to upload rows 1 through 1
 
-    ## Inserting data took 0.00901 secs
+    ## Inserting data took 0.00971 secs
     ## Uploading file: analyses.csv to table: analyses
 
     ## - Preparing to upload rows 1 through 1
 
-    ## Inserting data took 0.00735 secs
+    ## Inserting data took 0.00774 secs
     ## Uploading file: arguments.csv to table: arguments
 
     ## - Preparing to upload rows 1 through 1
 
-    ## Inserting data took 0.00745 secs
+    ## Inserting data took 0.00777 secs
 
-    ## Uploading data took 7.22 secs
+    ## Uploading data took 7.24 secs
 
 ## Evaluating Results
 
@@ -443,7 +443,7 @@ results$metadata
     ## # A tibble: 1 × 6
     ##   execution_start package_version r_version   platform execution_end analysis_id
     ##             <dbl> <chr>           <chr>       <chr>            <dbl>       <dbl>
-    ## 1     1770798710. 3.1.2           R version … x86_64-…   1770798734.           1
+    ## 1     1770799186. 3.1.2           R version … x86_64-…   1770799213.           1
 
 ### Sunburst Plot & Sankey Diagram
 
